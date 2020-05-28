@@ -1,7 +1,7 @@
 var path=require("path");
 var htmlWebpackPlugin=require("html-webpack-plugin");
 var VueLoaderPlugin=require("vue-loader/lib/plugin");
-const  BundleAnalyzerPlugin  = require('webpack-bundle-analyzer');
+const  {BundleAnalyzerPlugin}  = require('webpack-bundle-analyzer');
 
 module.exports={
     //入口文件
