@@ -13,7 +13,6 @@ module.exports={
     devServer: {
         proxy: {
             // '/big-screen': 'http://172.16.0.55:5000',
-            // '/big-screen': 'http://172.28.11.181:5000',
           }
     },
 
